@@ -26,7 +26,7 @@ body {
 }
 
 .container {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     padding: 20px;
     margin-top: 90px;
@@ -126,19 +126,18 @@ th {
 /* style.css */
 /* Estilos existentes... */
 
-@media (max-width: 1500px) {
+@media (max-width: 1100px) {
     /* style.css */
 body {
     font-family: 'Comic Sans MS', cursive, sans-serif;
     text-align: center;
     background-color: #a8e6cf; /* Un verde claro similar al de la imagen */
     margin: 0;
-    padding: 20px;
 }
 
 .container {
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 80px;
     background-color: #fff; /* Fondo blanco para el contenido principal */
     border-radius: 20px; /* Bordes redondeados */
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
