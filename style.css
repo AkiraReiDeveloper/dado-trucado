@@ -1,0 +1,195 @@
+/* style.css */
+.contador-lanzamientos {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.header-buttons {
+    position: fixed; /* Fija la posición de los botones en la parte superior */
+    top: 0;
+    right: 0;
+    z-index: 100; /* Asegura que estén por encima del resto del contenido */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    background-color: #f0f8ff;
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 90px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para los botones */
+    margin-right: 10px;
+}
+
+.tablas {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.tabla {
+    flex: 1;
+    padding: 10px;
+}
+
+table {
+    margin-top: 10px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f4a460;
+    color: white;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f0f0f0; /* Color de fondo para la barra superior */
+}
+
+.modal {
+    display: none; /* Ocultar modales por defecto */
+    position: fixed; /* Posición fija en la pantalla */
+    z-index: 1; /* Asegura que el modal esté sobre otros elementos */
+    left: 0;
+    top: 0;
+    width: 100%; /* Ancho completo */
+    height: 100%; /* Alto completo */
+    overflow: auto; /* Si el contenido es muy largo, permite scroll */
+    background-color: rgba(0,0,0,0.4); /* Color de fondo semitransparente */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* Margen para centrar */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Ancho del contenido */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#toggleFrecuencias{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bold;
+}
+
+
+/* style.css */
+/* Estilos existentes... */
+
+@media (max-width: 768px) {
+    /* style.css */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    background-color: #a8e6cf; /* Un verde claro similar al de la imagen */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #fff; /* Fondo blanco para el contenido principal */
+    border-radius: 20px; /* Bordes redondeados */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: #ffd166; /* Color amarillo para los botones */
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 25px; /* Bordes más redondeados */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 18px; /* Tamaño de letra más grande para legibilidad */
+}
+
+.tablas {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.tabla {
+    background-color: #ffaaa5; /* Fondo rosa para las tablas */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    width: calc(50% - 20px); /* Calcula el ancho para 2 tablas por fila */
+}
+
+table {
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .tablas {
+        flex-direction: column;
+    }
+
+    .tabla {
+        width: fit-content; /* Ajusta las tablas para columnas en dispositivos pequeños */
+    }
+}
+
+/* Continúa con otros estilos y media queries según sea necesario */
+
+}
